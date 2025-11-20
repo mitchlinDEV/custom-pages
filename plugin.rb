@@ -6,9 +6,6 @@
 # authors: Richard
 # url: https://github.com/mitchlinDEV/custom-pages
 
-# Make sure the client-side initializer is loaded
-register_asset "javascripts/discourse/initializers/custom-pages.js", :client_side
-
 after_initialize do
   # For now this plugin only adds front-end routes/templates.
   # Server-side code can be added here later if needed.
